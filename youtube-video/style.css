@@ -1,7 +1,7 @@
 * {
    margin: 0;
    padding: 0;
-   box-sizing: border-box; 
+   box-sizing: border-box;
 }
 input, button{
   margin: 0;
@@ -15,7 +15,7 @@ nav{
 }
 
 header{
-   position: fixed;  
+   position: fixed;
    top:0;
    left: 0;
    display: flex;
@@ -23,6 +23,7 @@ header{
 main{
   display: flex;
   margin-top: 30vh;
+  justify-content: center;
 }
 
 .left{
@@ -47,7 +48,7 @@ main{
   padding: 6px;
   font-size: 1rem;
   display: flex;
-  flex: 1;  
+  flex: 1;
 }
 
 .fa-search{
@@ -67,11 +68,55 @@ input:focus{
 }
 
 .icons{
-  display: flex;    
+  display: flex;
   justify-content: space-between;
 }
 
 .icon img{
   width: 100%;
   height: auto;
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+}
+
+.first-img-aside{
+  margin-bottom: 2em;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 0.2em;
+}
+
+.up-next-autoplay{
+  margin: 0.4em 0 2em 0;
+}
+
+.up-next-autoplay a{
+  float: left;
+  text-decoration: none;
+  color: gray;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.image{
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+section{
+  padding-right: 2em;
+}
+
+.column-container{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+
+}
+
+.buttom-container{
+  display: flex;
+  flex-direction: column;
 }
