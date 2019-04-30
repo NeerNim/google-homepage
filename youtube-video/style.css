@@ -46,7 +46,6 @@ header{
 
 nav{
   display: flex;
-  margin-bottom: 10%;
   box-shadow: 0 0.1em 0.1em #eeee;
   background: white;
   padding: 0 2em;
@@ -55,7 +54,7 @@ nav{
 
 main{
   display: flex;
-  margin-top: 30vh;
+  margin-top: 25vh;
   justify-content: center;
 }
 
@@ -187,9 +186,18 @@ aside{
 .avatar-container{
   width: 4em;
 }
+
+.avatar img{
+  width: 100%;
+  height: auto;
+}
+
+.avatar{
+  width:5em;
+  min-width: 77px;
+}
 .user-subcriber-wrapper{
-  display: flex;
-  align-items: center;
+  display: flex;  
   margin-top: 2em;
 }
 
@@ -214,6 +222,7 @@ aside{
   color: #FFFFFF;
   background-color: #f62b2b;
   text-transform: uppercase;
+  min-width: 156px;
 }
 
 .video-description{
@@ -234,12 +243,14 @@ aside{
   margin-bottom: 1em;
 }
 .subscribe-container{
-  width: 34%;
+  width: 34%;  
 }
+
 
 .comment-section{
   display: flex;
   margin-top: 1.5em;
+  margin-bottom: 1.5em;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -264,6 +275,10 @@ aside{
   font-size: 1em;
   width: 100%;
   border-bottom: 1px solid lightgray;
+  height: 2.5em;
+}
+.comment-input:focus{
+  border-bottom: 1px solid rgb(70, 70, 70);
 }
 
 .comment-box{
@@ -281,7 +296,7 @@ aside{
 .reply-image{
   width: 50%;
   height: auto;
-  min-width: 100px;
+  max-width: 150px;
 
 }
 
@@ -291,5 +306,5 @@ aside{
 }
 
 .user-comment p{
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
