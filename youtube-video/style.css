@@ -249,8 +249,7 @@ aside{
 
 .comment-section{
   display: flex;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin: 1.5em 0;
   flex-direction: column;
   justify-content: space-between;
 }
