@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
 
 html, body{
@@ -212,7 +212,7 @@ aside{
   display:inline-block;
   font-weight:bold;
   color: #FFFFFF;
-  background-color: #f62b2b;  
+  background-color: #f62b2b;
   text-transform: uppercase;
 }
 
@@ -247,5 +247,49 @@ aside{
 .comment-header{
   display: flex;
   flex-direction: row;
-  justify-content: space-between
+}
+
+.comments-number{
+  padding-right: 1em;
+  align-items: center;
+}
+
+.comment-input{
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  -webkit-appearance: none;
+  font-family: inherit;
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.comment-box{
+  display: flex;
+
+
+}
+
+.all-comments{
+  display: flex;
+  padding-top: 2em;
+  align-items: center
+}
+
+.reply-image{
+  width: 50%;
+  height: auto;
+  min-width: 100px;
+
+}
+
+.user-comment h5{
+  font-size: 0.7.5em;
+
+}
+
+.user-comment p{
+  font-size: 0.7em;
 }
