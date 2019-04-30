@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body{
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(62, 62, 62);
+  font-size: 100%;
+}
+
+p{
+  font-size: 0.9em;
+}
+
+h1, h2, h3, h4{
+  margin: 0.5em 0;
+}
+
+hr{
+  border:0.5px solid  rgb(216, 216, 216);
+}
+
+input, button{
+  margin: 0;
+  padding: 0;
+}
+
+input:focus{
+  outline: none;
+}
+
+::placeholder{
+  opacity: 0.1;
+}
+
+header{
+  position: fixed;
+  top:0;
+  left: 0;
+  display: flex;
+}
+
+nav{
+  display: flex;
+  box-shadow: 0 0.1em 0.1em #eeee;
+  background: white;
+  padding: 0 2em;
+  align-items: center;
+}
+
+main{
+  display: flex;
+  margin-top: 25vh;
+  justify-content: center;
+}
+
+.left{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo a img{
+  width: 50%;
+}
+
+.middle{
+  display: flex;
+  flex: 1;
+  height: auto;
+  max-height: 35px;
+}
+
+.search {
+  flex: 1 1 auto;
+  display: inline-flex;
+
+}
+
+.search input{
+  padding: 6px;
+  font-size: 1em;
+  display: flex;
+  flex: 1;
+}
+
+.fa-search{
+  padding: 0 1em;
+}
+
+.right{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img{
+  width: 100%;
+  height: auto;
+}
+section{
+  padding-right: 2em;
+  width: 58%;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  max-height: 450px;
+  border: 0;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+}
+
+.first-img-aside{
+  margin-bottom: 2em;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 0.2em;
+}
+
+.up-next-autoplay{
+  margin: 0.4em 0 0.5em 0;
+}
+
+.up-next-autoplay a{
+  float: left;
+  text-decoration: none;
+  color: gray;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+
+.column-container{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  margin-bottom: 1em;
+  justify-content: center;
+}
+.bottom-container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.image-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.image-container{
+  min-width: 150px;
+}
+.para-container{
+  margin-left: 1em;
+}
+
+.video-desc{
+  display: flex;
+  justify-content: space-between;
+}
+.share{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.youtube-avatar{
+  width: 100%;
+  height: auto;
+}
+.avatar-container{
+  width: 4em;
+}
+
+.avatar img{
+  width: 100%;
+  height: auto;
+}
+
+.avatar{
+  width:5em;
+  min-width: 77px;
+}
+.user-subcriber-wrapper{
+  display: flex;  
+  margin-top: 2em;
+}
+
+.user-container{
+  display: flex;
+  margin-right: 2em;
+}
+.youtubeUser{
+  display: flex;
+  margin-left: 1em;
+  flex-direction: column;
+}
+
+.btn-sub{
+  border:1px solid #df0909;
+  border-radius: 1px;
+  font-size: 0.8em;
+  padding: 10px 20px;
+  text-decoration:none;
+  display:inline-block;
+  font-weight:bold;
+  color: #FFFFFF;
+  background-color: #f62b2b;
+  text-transform: uppercase;
+  min-width: 156px;
+}
+
+.video-description{
+  margin-top: 25px;
+}
+.youtuberUser{
+  width: 20%;
+}
+.youtubeUser h4{
+  margin-bottom: 0;
+}
+.youtubeUser span{
+  font-size: 0.8em;
+  color: rgb(113, 113, 113);
+  margin-bottom: 1em;
+}
+.youtubeUser p{
+  margin-bottom: 1em;
+}
+.subscribe-container{
+  width: 34%;  
+}
+
+
+.comment-section{
+  display: flex;
+  margin: 1.5em 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.comments-number{
+  padding-right: 1em;
+  align-items: center;
+}
+
+.comment-input{
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  -webkit-appearance: none;
+  font-family: inherit;
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  height: 2.5em;
+}
+.comment-input:focus{
+  border-bottom: 1px solid rgb(70, 70, 70);
+}
+
+.comment-box{
+  display: flex;
+
+
+}
+
+.all-comments{
+  display: flex;
+  padding-top: 2em;
+  align-items: center
+}
+
+.reply-image{
+  width: 50%;
+  height: auto;
+  max-width: 150px;
+
+}
+
+.user-comment h5{
+  font-size: 0.7.5em;
+
+}
+
+.user-comment p{
+  font-size: 0.8em;
+}
